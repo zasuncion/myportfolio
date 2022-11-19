@@ -18,9 +18,8 @@ Karlsruhe, Germany
 
 About
 Resume
-Portfolio
-Blog
-Contact
+Publications
+Open Source
 
 # about
 
