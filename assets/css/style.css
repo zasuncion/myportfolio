@@ -830,14 +830,18 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
   scroll-snap-align: start;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .clients-item img {
-  width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
+  height: 64px;
+  display: block;
+  object-fit: contain;
+  width: auto;
 }
 
 .clients-item img:hover {
@@ -1404,7 +1408,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .clients-item {
-    min-width: calc(33.33% - 10px);
+    /*min-width: calc(33.33% - 10px);*/
   }
 
 
@@ -1688,7 +1692,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .clients-item {
-    min-width: calc(33.33% - 35px);
+    /*min-width: calc(33.33% - 35px);*/
   }
 
 
@@ -1994,7 +1998,7 @@ textarea.form-input::-webkit-resizer {
   /* clients */
 
   .clients-item {
-    min-width: calc(25% - 38px);
+    /*min-width: calc(25% - 38px);*/
   }
 
 
