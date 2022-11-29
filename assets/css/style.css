@@ -836,16 +836,15 @@ main {
 }
 
 .clients-item img {
-  filter: grayscale(1);
   transition: var(--transition-1);
-  height: 64px;
+  height: 40px;
   display: block;
   object-fit: contain;
   width: auto;
 }
 
 .clients-item img:hover {
-  filter: grayscale(0);
+  filter: invert(40%);
 }
 
 
