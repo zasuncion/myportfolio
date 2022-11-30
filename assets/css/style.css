@@ -58,11 +58,12 @@
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(146, 63%, 37%);
   /*--orange-yellow-crayola: hsl(45, 100%, 72%);*/
-  --vegas-gold: hsl(204, 62%, 47%);
+  --vegas-gold: #EFA48B;
   /* --vegas-gold: hsl(45, 54%, 58%); */
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(146, 63%, 37%);
+  --bittersweet-shimmer: #6CAE75;
+  /*hsl(146, 63%, 37%);*/
   /*--bittersweet-shimmer: hsl(0, 43%, 51%);*/
 
   /**
@@ -1362,6 +1363,10 @@ textarea.form-input::-webkit-resizer {
   border-radius: inherit;
   z-index: -1;
   transition: var(--transition-1);
+}
+
+ion-icon {
+  pointer-events: none;
 }
 
 .form-btn ion-icon {
