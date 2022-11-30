@@ -352,7 +352,8 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 160px;
+  /*112*/
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -818,7 +819,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
+  gap: 30px;
   margin: 0 -15px;
   padding: 25px;
   padding-bottom: 25px;
@@ -2131,6 +2132,11 @@ textarea.form-input::-webkit-resizer {
 
   .info_more-btn {
     display: none;
+  }
+
+  .sidebar-info_social {
+    opacity: 1;
+    visibility: visible;
   }
 
   .sidebar-info_more {
