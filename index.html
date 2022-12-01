@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,30 @@
   <meta name="description"
     content="Personal website of Daniel Bogdoll, including social media profiles, resume and CV, scientific publications, activities, and projects.">
   <title>Daniel Bogdoll</title>
+  <!--https://schema.org/Person-->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Karlsruhe",
+        "addressRegion": "",
+        "postalCode": "76133",
+        "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+      },
+      "colleague": [
+        "http://www.xyz.edu/students/alicejones.html",
+        "http://www.xyz.edu/students/bobsmith.html"
+      ],
+      "email": "mailto:daniel.bogdoll@rwth-aachen.de",
+      "image": "assets/images/daniel.png",
+      "jobTitle": "Research Scientist",
+      "name": "Daniel Bogdoll",
+      "disambiguatingDescription": "Research Scientist at FZI Research Center for Information Technology and PhD Student at KIT Karlsruhe Institute of Technology.",
+      "url": "http://www.danielbogdoll.com"
+    }
+    </script>
 
   <!--
     - favicon
@@ -55,9 +80,9 @@
         <figure class="avatar-box">
           <img src="./assets/images/daniel.png" alt="Daniel Bogdoll" width="80">
         </figure>
+        <div class="info-content">
 
-        <div itemscope itemtype="https://schema.org/Person" class="info-content">
-          <h1 class="name" title="Daniel Bogdoll" itemprop="name">Daniel Bogdoll</h1>
+          <h1 class="name" title="Daniel Bogdoll">Daniel Bogdoll</h1>
 
           <p class="title">Research Scientist • PhD Student</p>
         </div>
@@ -1628,71 +1653,164 @@
 
       <article class="projects" data-page="projects">
 
+
         <header>
-          <h2 class="h2 article-title">Open Source</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
-        <ul class="project-list">
+        <section class="service">
+          <h3 class="h3 service-title">Open Source</h3>
 
-          <!--
+
+          <ul class="project-list">
+
+            <!--
       - #PUBLICATIONS - 2022
     -->
-          <li class="project-item  active">
-            <a href="https://ad-datasets.com/" target="_blank" rel="noopener noreferrer">
+            <li class="project-item  active">
+              <a href="https://ad-datasets.com/" target="_blank" rel="noopener noreferrer">
 
-              <figure class="project-img">
-                <div class="project-item-icon-box">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                <img src="./assets/images/datasets.jpg" alt="DALL-E generated cover image" loading="lazy">
-              </figure>
+                  <img src="./assets/images/datasets.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
 
-              <h3 class="project-title">AD-Datasets</h3>
-              <p class="project-subtitle">Autonomous Driving related Collection of Datasets</p>
+                <h3 class="project-title">AD-Datasets</h3>
+                <p class="project-subtitle">Autonomous Driving related Collection of Datasets</p>
 
-            </a>
-          </li>
+              </a>
+            </li>
 
-          <li class="project-item  active">
-            <a href="https://ad-deadlines.com/" target="_blank" rel="noopener noreferrer">
+            <li class="project-item  active">
+              <a href="https://ad-deadlines.com/" target="_blank" rel="noopener noreferrer">
 
-              <figure class="project-img">
-                <div class="project-item-icon-box">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                <img src="./assets/images/calendar.jpg" alt="DALL-E generated cover image" loading="lazy">
-              </figure>
+                  <img src="./assets/images/calendar.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
 
-              <h3 class="project-title">AD-Deadlines</h3>
-              <p class="project-subtitle">Countdowns to conference deadlines in the field of autonomous driving
-              </p>
+                <h3 class="project-title">AD-Deadlines</h3>
+                <p class="project-subtitle">Countdowns to conference deadlines in the field of autonomous driving
+                </p>
 
-            </a>
-          </li>
+              </a>
+            </li>
 
-          <li class="project-item  active">
-            <a href="https://github.com/daniel-bogdoll/ConferenceTemplate/tree/main" target="_blank"
-              rel="noopener noreferrer">
+            <li class="project-item  active">
+              <a href="https://github.com/daniel-bogdoll/ConferenceTemplate/tree/main" target="_blank"
+                rel="noopener noreferrer">
 
-              <figure class="project-img">
-                <div class="project-item-icon-box">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                <img src="./assets/images/paper.jpg" alt="DALL-E generated cover image" loading="lazy">
-              </figure>
+                  <img src="./assets/images/paper.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
 
-              <h3 class="project-title">Conference Template</h3>
-              <p class="project-subtitle">LaTeX template for scientific papers with tips on structure, style, and
-                language. Ready to go for IEEE and arXiv submissions.
-              </p>
+                <h3 class="project-title">Conference Template</h3>
+                <p class="project-subtitle">LaTeX template for scientific papers with tips on structure, style, and
+                  language. Ready to go for IEEE and arXiv submissions.
+                </p>
 
-            </a>
-          </li>
+              </a>
+            </li>
 
-        </ul>
+          </ul>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Research</h3>
+
+          <ul class="project-list">
+
+            <!--
+      - #PUBLICATIONS - 2022
+    -->
+            <li class="project-item  active">
+              <a href="https://www.kiwissen.de/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kiwissen.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KI WISSEN</h3>
+                <p class="project-subtitle">Reinforcement Learning with controlled traffic rule exceptions • 2021 —
+                  2023</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://www.ki-datatooling.de/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kidatatooling.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KI DATA TOOLING</h3>
+                <p class="project-subtitle">Detection and generation of corner case scenarios • 2020 —
+                  2023
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://www.kiglis.de/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kiglis.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KIGLIS</h3>
+                <p class="project-subtitle">Anomaly detection for the activation of remote assistance • 2020 —
+                  2023
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://www.adaptive-ip.eu/index.php/closedist_scenarios.html" target="_blank"
+                rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/adaptive.jpg" alt="DALL-E generated cover image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ADAPTIVE</h3>
+                <p class="project-subtitle">Trajectory planning for automated valet parking • 2016 —
+                  2017
+                </p>
+
+              </a>
+            </li>
+
+          </ul>
+        </section>
 
       </article>
 
