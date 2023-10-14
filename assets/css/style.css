@@ -129,6 +129,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
+
 img, ion-icon, a, button, time, span { display: block; }
 
 button {
@@ -830,6 +831,7 @@ main {
 }
 
 
+
 /**
  * skills 
  */
@@ -1497,6 +1499,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 8px;
     left: -43px;
   }
+
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
