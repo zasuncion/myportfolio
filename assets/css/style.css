@@ -294,6 +294,16 @@ article.active {
 }
 
 
+.resume-text {
+  color: orange;
+  font-size: var(--fs-11);
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+
 
 
 
