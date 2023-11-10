@@ -1866,7 +1866,6 @@ ion-icon {
     color: var(--light-gray);
     font-size: var(--fs-5);
     transition: var(--transition-1);
-    width: auto;
   }
 
   .filter-item button:hover {
