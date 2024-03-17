@@ -557,7 +557,42 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
+/* news */
+.news { margin-bottom: 20px; }
 
+.news-title { margin-bottom: 20px; }
+/* 
+Publications
+*/
+
+.publications { margin-bottom: 20px; }
+
+.publications-title { margin-bottom: 20px; }
+
+.publications-list li{
+  list-style: square;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.publications-list li a{
+  display: inline;
+  color: #87CEEB;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* .hr-about{
+  margin: 10px 0;
+  border: 1px solid var(--jet);
+  width: 20%;
+  border-radius: 20%;
+  height: 10px;
+} */
 
 /**
  * #testimonials 
