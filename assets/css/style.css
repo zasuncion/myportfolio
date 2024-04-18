@@ -1835,3 +1835,27 @@ textarea.form-input::-webkit-resizer { display: none; }
   text-decoration: underline;
   font-style: italic;
 }
+
+/* Custom */
+
+.resume_view_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  color: var(--light-gray);
+  background: var(--border-gradient-onyx);
+  transition: background 1s ease-in-out, transform 0.3s ease-out;
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.resume_view_button:hover {
+  /* background: var(--bg-gradient-yellow-1); */
+  transform: scale(1.02); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
