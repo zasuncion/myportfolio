@@ -576,6 +576,17 @@ Publications
 }
 
 
+.publications-list li a{
+  display: inline;
+  color: #87CEEB;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.awards { margin-bottom: 20px; }
+
+.awards-title { margin-bottom: 20px; }
+
 .awards-list li{
   list-style: square;
   color: var(--light-gray);
@@ -585,14 +596,6 @@ Publications
   margin-bottom: 10px;
   margin-left: 30px;
 }
-
-.publications-list li a{
-  display: inline;
-  color: #87CEEB;
-  text-decoration: underline;
-  font-style: italic;
-}
-
 /* .hr-about{
   margin: 10px 0;
   border: 1px solid var(--jet);
