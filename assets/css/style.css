@@ -575,6 +575,17 @@ Publications
   margin-left: 30px;
 }
 
+
+.awards-list li{
+  list-style: square;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
 .publications-list li a{
   display: inline;
   color: #87CEEB;
