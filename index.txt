@@ -32,9 +32,9 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I'm Creative Director and UI/UX Designer from Sydney, Australia, working in projects and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created papers for many famous brand companies.
 
 
 ## service
@@ -42,16 +42,16 @@ My job is to build your website so that it is functional and user-friendly but a
 What i'm doing
 
 alt = design icon
-Web design
+papers
 The most modern and high-quality design made at a professional level.
 
-alt = Web development icon
-Web development
+alt = projects icon
+projects
 High-quality development of sites at the professional level.
 
 alt = mobile app icon
 Mobile apps
-Professional development of applications for iOS and Android.
+Professional development of certifications for iOS and Android.
 
 alt = camera icon
 Photography
@@ -115,13 +115,13 @@ Art director
 2013 — 2015
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
-Web designer
+paperser
 2010 — 2013
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
 My skills
 
-Web design
+papers
 80%
 Graphic design
 70%
@@ -137,51 +137,51 @@ WordPress
 Portfolio
 
 All
-Web design
-Applications
-Web development
+papers
+certifications
+projects
 
 Select category
 All
-Web design
-Applications
-Web development
+papers
+certifications
+projects
 
 alt = finance
 Finance
-Web development
+projects
 
 alt = orizon
 Orizon
-Web development
+projects
 
 alt = fundo
 Fundo
-Web design
+papers
 
 alt = brawlhalla
 Brawlhalla
-Applications
+certifications
 
 alt = dsm.
 DSM.
-Web design
+papers
 
 alt = metaspark
 MetaSpark
-Web design
+papers
 
 alt = summary
 Summary
-Web development
+projects
 
 alt = task manager
 Task Manager
-Applications
+certifications
 
 alt = arrival
 Arrival
-Web development
+projects
 
 
 
