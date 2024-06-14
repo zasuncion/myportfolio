@@ -575,7 +575,6 @@ Publications
   margin-left: 30px;
 }
 
-
 .publications-list li a{
   display: inline;
   color: #87CEEB;
@@ -1872,4 +1871,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* background: var(--bg-gradient-yellow-1); */
   transform: scale(1.02); 
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* More publication styles */
+
+.publication-link {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.publication-detail {
+  margin-left: 20px;
 }
